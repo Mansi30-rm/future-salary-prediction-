@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Load the dataset
+# Download dataset from: https://www.kaggle.com/dataset-survey_results_public.csv
 df = pd.read_csv("survey_results_public.csv", low_memory=False)
 
 # Rename columns for simplicity
